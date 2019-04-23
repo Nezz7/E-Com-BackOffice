@@ -1,0 +1,3 @@
+<button class="btn btn-primary" (click)="onGetProduits()">Get Produits </button>
+<hr>
+<app-produit *ngFor="let produit of produits" [produit]="produit" ></app-produit>
